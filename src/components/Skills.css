@@ -1,0 +1,29 @@
+/* src/components/Skills.css */
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow the list items to wrap to the next line */
+}
+
+.skills-list li {
+    width: 50%;
+    /* Set the width to 50% for a two-column layout */
+    box-sizing: border-box;
+    /* Include padding and border in the total width */
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #81D8D0;
+}
+
+.sub-note {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: aliceblue;
+    /* Adjust the color as needed */
+}

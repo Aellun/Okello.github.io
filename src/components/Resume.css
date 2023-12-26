@@ -1,0 +1,36 @@
+/* src/components/Resume.css */
+
+
+.resume {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.resume {
+    margin-bottom: 15px;
+}
+
+/* Style headers */
+h1 {
+    font-size: 24px;
+    text-align: left;
+    /* Adjust the font size as needed */
+    color: #81D8D0;
+    /* Set the color of the header text */
+    margin-bottom: 10px;
+    /* Add space below the header */
+}
+
+.resume-paragraph {
+    margin-left: 30px;
+    padding-left: 10px;
+    /* Adjust as needed for spacing between bullet point and text */
+    border-left: 2px solid white;
+    /* Adjust the color and thickness of the left border */
+}
+
+.resume-paragraph::first-line {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
